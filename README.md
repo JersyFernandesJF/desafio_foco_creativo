@@ -1,61 +1,61 @@
-# Foco Criativo - Projeto Completo
+# Creative Focus - Complete Project
 
-*Foco Criativo* é um conjunto de aplicações que inclui uma plataforma web e uma aplicação mobile, ambas desenvolvidas para permitir que os usuários façam login com Google, armazenando e gerenciando suas informações com o backend PocketBase.
+*Creative Focus* is a suite of applications that includes a web platform and a mobile app, both developed to allow users to log in with Google, storing and managing their information with the PocketBase backend.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- *Next.js*: Framework para o desenvolvimento da aplicação web.
-- *React Native*: Framework utilizado para o desenvolvimento da aplicação mobile.
-- *PocketBase*: Backend utilizado para autenticação e armazenamento dos dados.
-- *Docker*: Utilizado para facilitar a implantação do PocketBase.
+- *Next.js*: Framework for developing the web application.
+- *React Native*: Framework used for developing the mobile application.
+- *PocketBase*: Backend used for authentication and data storage.
+- *Docker*: Used to facilitate the deployment of PocketBase.
 
-## Estrutura do Projeto
+## Project Structure
 
-O projeto é dividido em três repositórios separados:
+The project is divided into three separate repositories:
 
-1. **[Foco Criativo Web (Next.js)](https://github.com/seu-usuario/foco-criativo-web)**: Aplicação web que permite login com Google e integra com o PocketBase.
-   
-2. **[Foco Criativo Mobile (React Native)](https://github.com/seu-usuario/foco-criativo-mobile)**: Aplicação mobile com login Google e integração com PocketBase.
+1. **[Creative Focus Web (Next.js)](https://github.com/seu-usuario/foco-criativo-web)**: Web application that allows Google login and integrates with PocketBase.
 
-3. **[Foco Criativo PocketBase (Backend)](https://github.com/seu-usuario/foco-criativo-pocketbase)**: Backend configurado para gerenciar a autenticação e os dados dos usuários.
+2. **[Creative Focus Mobile (React Native)](https://github.com/seu-usuario/foco-criativo-mobile)**: Mobile application with Google login and PocketBase integration.
 
-## Imagens da Aplicação
+3. **[Creative Focus PocketBase (Backend)](https://github.com/seu-usuario/foco-criativo-pocketbase)**: Backend configured to manage user authentication and data.
 
-Adicione aqui screenshots que mostrem as funcionalidades principais tanto da aplicação web quanto da mobile.
+## Application Screenshots
+
+Add screenshots here that showcase the main features of both the web and mobile applications.
 
 ### Web
 
-- *Página de Login*  
+- *Login Page*  
   <div>
      <img width="2560" alt="Screenshot 2024-08-29 at 13 59 10" src="https://github.com/user-attachments/assets/68108872-3aec-4721-8478-c7abbe7c7e33">
   </div>
 
-- *Dashboard do Usuário*  
+- *User Dashboard*  
   <div>
      <img width="2560" alt="Screenshot 2024-08-29 at 13 59 31" src="https://github.com/user-attachments/assets/a327028e-1ab5-4bc1-bcd6-2fba0d07f5f3">
   </div>
 
 ### Mobile
 
-- *Telas Aplicação Mobile*  
-    <div style=>
+- *Mobile App Screens*  
+    <div>
     <img width="300" alt="Screenshot 2024-08-29 at 14 00 29" src="https://github.com/user-attachments/assets/6019140e-40d6-4e5a-94b2-4760c2df23b1">
-            <img width="300" alt="Screenshot 2024-08-29 at 14 00 43" src="https://github.com/user-attachments/assets/26bdec3f-bfb6-4033-a1b4-b576f612da65">
+    <img width="300" alt="Screenshot 2024-08-29 at 14 00 43" src="https://github.com/user-attachments/assets/26bdec3f-bfb6-4033-a1b4-b576f612da65">
   </div>
 
-## Como Rodar o Projeto
+## How to Run the Project
 
-Para rodar toda a aplicação, siga os passos indicados nos READMEs de cada repositório específico:
+To run the entire application, follow the steps provided in the READMEs of each specific repository:
 
-1. *Backend (PocketBase)*: Configure e rode o backend com Docker seguindo as instruções do [repositório PocketBase](https://github.com/seu-usuario/foco-criativo-pocketbase).
+1. *Backend (PocketBase)*: Set up and run the backend with Docker by following the instructions in the [PocketBase repository](https://github.com/seu-usuario/foco-criativo-pocketbase).
 
-2. *Aplicação Web (Next.js)*: Siga as instruções de instalação e execução disponíveis no [repositório Foco Criativo Web](https://github.com/seu-usuario/foco-criativo-web).
+2. *Web Application (Next.js)*: Follow the installation and execution instructions available in the [Creative Focus Web repository](https://github.com/seu-usuario/foco-criativo-web).
 
-3. *Aplicação Mobile (React Native)*: Configure e execute a aplicação mobile conforme os passos detalhados no [repositório Foco Criativo Mobile](https://github.com/seu-usuario/foco-criativo-mobile).
+3. *Mobile Application (React Native)*: Set up and run the mobile application according to the steps detailed in the [Creative Focus Mobile repository](https://github.com/seu-usuario/foco-criativo-mobile).
 
-## Desenvolvedor
+## Developer
 
-Este projeto foi desenvolvido por *Jersy Leandr da Silva Fernandes*, um desenvolvedor dedicado a criar soluções inovadoras e práticas para empresas.
+This project was developed by *Jersy Leandr da Silva Fernandes*, a developer dedicated to creating innovative and practical solutions for businesses.
 
-- *LinkedIn*: [Perfil LinkedIn](https://www.linkedin.com/in/gercilhao) <!-- Adicione seu link do LinkedIn -->
-- *Email*: jersysilvafernandes@gmail.com <!-- Adicione seu e-mail real -->
+- *LinkedIn*: [LinkedIn Profile](https://www.linkedin.com/in/jersy-fernandes-070840238/)
+- *Email*: jersysilvafernandes@gmail.com
