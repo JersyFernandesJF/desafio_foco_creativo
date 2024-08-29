@@ -1,31 +1,31 @@
 # Foco Criativo Web
 
-**Foco Criativo Web** é uma aplicação desenvolvida com Next.js como parte de um teste para a empresa Foco Criativo. A aplicação permite que os usuários façam login com o Google e armazena informações no PocketBase, que atua como o backend da aplicação.
+**Foco Criativo Web** is an application developed with Next.js as part of a test for the company Foco Criativo. The application allows users to log in with Google and stores information in PocketBase, which acts as the backend for the application.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **Next.js**: Framework utilizado para o desenvolvimento da aplicação web.
-- **PocketBase**: Backend utilizado para autenticação e armazenamento dos dados.
+- **Next.js**: Framework used for web application development.
+- **PocketBase**: Backend used for authentication and data storage.
 
-## Pré-requisitos
+## Prerequisites
 
-Antes de executar o projeto, é necessário que o backend esteja configurado e rodando. Certifique-se de seguir os passos abaixo corretamente.
+Before running the project, ensure that the backend is configured and running. Make sure to follow the steps below correctly.
 
-### Link do Backend
+### Backend Link
 
-O backend da aplicação utiliza o PocketBase. Antes de executar a aplicação, acesse o backend neste link:
+The application's backend uses PocketBase. Before running the application, access the backend at this link:
 
-[Backend do PocketBase](#) <!-- Insira o link real aqui -->
+[Backend PocketBase](https://github.com/JersyFernandesJF/desafio_foco_creativo/tree/main/foco_creativo_backend) <!-- Insert the actual link here -->
 
-> **Nota**: O backend precisa estar em execução antes de iniciar a aplicação.
+> **Note**: The backend needs to be running before starting the application.
 
-## Configuração do Ambiente
+## Environment Setup
 
-Antes de rodar a aplicação, é necessário configurar o arquivo `.env` com as variáveis de ambiente corretas.
+Before running the application, you need to configure the `.env` file with the correct environment variables.
 
-### Criação do Arquivo `.env`
+### Creating the `.env` File
 
-Crie um arquivo `.env.local` na raiz do projeto Next.js e adicione as seguintes variáveis de ambiente:
+Create a `.env.local` file in the root of the Next.js project and add the following environment variables:
 
 env
 AUTH_GOOGLE_ID=755410845988-p7lmpgc57q12g2st5q28s2fbfer0bhoc.apps.googleusercontent.com
@@ -37,13 +37,13 @@ AUTH_POCKETDB_USER_NAME=jersysilvafernandes@gmail.com
 AUTH_POCKETDB_PASSWORRD=Ii13a2019!
 
 
-Certifique-se de substituir `your_google_client_id`, `your_google_client_secret` e `your_pocketbase_url` pelos valores corretos das suas credenciais.
+Ensure that you replace your_google_client_id, your_google_client_secret, and your_pocketbase_url with the correct values for your credentials.
 
-## Instalação e Execução
+## Installation and Execution
 
-### Passo 1: Instalar Dependências
+### Step 1: Install Dependencies
 
-Utilize o gerenciador de pacotes de sua preferência para instalar as dependências do projeto. Execute um dos comandos abaixo:
+Use your preferred package manager to install the project dependencies. Run one of the commands below:
 
 bash
 # Com Yarn
@@ -53,13 +53,13 @@ yarn install
 npm install
 
 
-### Passo 2: Inicializar o Backend
+### Step 2: Initialize the Backend
 
-Certifique-se de que o backend está rodando e acessível antes de iniciar a aplicação.
+Ensure that the backend is running and accessible before starting the application.
 
-### Passo 3: Executar a Aplicação
+### Step 3: Run the Application
 
-Para rodar a aplicação Next.js, utilize o comando abaixo:
+To run the Next.js application, use the following command:
 
 bash
 # Com Yarn
@@ -69,14 +69,18 @@ yarn dev
 npm run dev
 
 
-> **Nota**: Certifique-se de que as variáveis de ambiente estão corretamente configuradas no arquivo `.env.local` para que a aplicação funcione corretamente.
+> **Note: Make sure that the environment variables are correctly configured in the .env.local file for the application to work properly.
 
-## Screenshots da Aplicação
+## Application Screenshots
 
-Adicione aqui screenshots mostrando a aplicação em execução para ajudar na visualização do sistema.
+Add screenshots here showing the application in action to help visualize the system.
 
-- **Screenshot 1**:  
-  ![Screenshot 1](path_to_screenshot_1) <!-- Insira o caminho da imagem -->
+- *Login Page*  
+  <div>
+     <img width="2560" alt="Screenshot 2024-08-29 at 13 59 10" src="https://github.com/user-attachments/assets/68108872-3aec-4721-8478-c7abbe7c7e33">
+  </div>
 
-- **Screenshot 2**:  
-  ![Screenshot 2](path_to_screenshot_2) <!-- Insira o caminho da imagem -->
+- *User Dashboard*  
+  <div>
+     <img width="2560" alt="Screenshot 2024-08-29 at 13 59 31" src="https://github.com/user-attachments/assets/a327028e-1ab5-4bc1-bcd6-2fba0d07f5f3">
+  </div>
