@@ -34,6 +34,7 @@ Add screenshots here that showcase the main features of both the web and mobile 
   <div>
      <img width="2560" alt="Screenshot 2024-08-29 at 13 59 31" src="https://github.com/user-attachments/assets/a327028e-1ab5-4bc1-bcd6-2fba0d07f5f3">
   </div>
+  https://github.com/user-attachments/assets/9b30979e-fe67-44ee-ae72-ee55d715d25e
 
 ### Mobile
 
@@ -41,6 +42,7 @@ Add screenshots here that showcase the main features of both the web and mobile 
     <div>
     <img width="300" alt="Screenshot 2024-08-29 at 14 00 29" src="https://github.com/user-attachments/assets/6019140e-40d6-4e5a-94b2-4760c2df23b1">
     <img width="300" alt="Screenshot 2024-08-29 at 14 00 43" src="https://github.com/user-attachments/assets/26bdec3f-bfb6-4033-a1b4-b576f612da65">
+    https://github.com/user-attachments/assets/b5243348-6355-47c2-960d-4d7bb8604fe6
   </div>
 
 ## How to Run the Project
