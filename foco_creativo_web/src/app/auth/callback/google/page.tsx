@@ -1,18 +1,17 @@
 "use client";
 import { type AuthProviderInfo } from "pocketbase";
 import { useEffect, useState } from "react";
-import { useSearchParams } from "next/navigation";
-import Image from "next/image";
+import { useSearchParams, useRouter } from "next/navigation";
 
 import pb from "@/lib/api";
 import { useAuth } from "@/lib/hooks/use-auth";
-import { AppleIcon } from "@/assets/icons/apple";
 import { GoogleIcon } from "@/assets/icons/google";
 
 export default function AuthSignIn() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const { googleSignIn, setUserData, signOut, user, appleSignIn } = useAuth();
   const searchParams = useSearchParams();
+  const { replace } = useRouter();
 
   const storeUserAndRedirect = (user: any) => {
     setUserData(user);
@@ -79,22 +78,19 @@ export default function AuthSignIn() {
             </>
           ) : (
             <div className="flex flex-1 flex-col items-center justify-center space-y-4">
-              <Image
-                src={
-                  user?.avatarUrl
-                    ? { uri: user.avatarUrl }
-                    : require("@/assets/images/icon.svg")
-                }
-                alt=""
+              <img
+                src={user!.avatarUrl}
                 width={200}
                 height={200}
-                className="rounded-full bg-black"
+                referrerPolicy="no-referrer"
+                className="rounded-full"
               />
               <p>{user?.name}</p>
               <p>{user?.email}</p>
               <button
                 onClick={() => {
                   setIsAuthenticated(false);
+                  replace(`/auth/callback/google`);
                   signOut();
                 }}
                 className=" flex flex-row items-center justify-center rounded-xl bg-[#000] px-5 py-3 text-base font-medium text-white transition duration-200 hover:bg-[#000]/90 active:bg-[#000]/80"
