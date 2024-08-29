@@ -99,9 +99,7 @@ npx react-native run-android
 ## Screenshots da Aplicação
 
 Adicione aqui screenshots mostrando a aplicação em execução para ajudar na visualização do sistema.
-
-- **Screenshot 1**:  
-  ![Screenshot 1](path_to_screenshot_1) <!-- Insira o caminho da imagem -->
-
-- **Screenshot 2**:  
-  ![Screenshot 2](path_to_screenshot_2) <!-- Insira o caminho da imagem -->
+    <div>
+    <img width="300" alt="Screenshot 2024-08-29 at 14 00 29" src="https://github.com/user-attachments/assets/6019140e-40d6-4e5a-94b2-4760c2df23b1">
+    <img width="300" alt="Screenshot 2024-08-29 at 14 00 43" src="https://github.com/user-attachments/assets/26bdec3f-bfb6-4033-a1b4-b576f612da65">
+  </div>
