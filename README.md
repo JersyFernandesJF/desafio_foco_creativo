@@ -26,7 +26,7 @@ Adicione aqui screenshots que mostrem as funcionalidades principais tanto da apl
 ### Web
 
 - *Página de Login*  
-  ![Página de Login](path_to_web_screenshot_1) <!-- Substitua pelo caminho da imagem -->
+  ![Página de Login]((https://github.com/user-attachments/assets/68108872-3aec-4721-8478-c7abbe7c7e33)) <!-- Substitua pelo caminho da imagem -->
 
 - *Dashboard do Usuário*  
   ![Dashboard do Usuário](path_to_web_screenshot_2) <!-- Substitua pelo caminho da imagem -->
