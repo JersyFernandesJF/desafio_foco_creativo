@@ -1,85 +1,77 @@
-markdown
-
 # Foco Criativo Mobile
 
-**Foco Criativo Mobile** é um aplicativo desenvolvido com React Native como parte de um teste para a empresa Foco Criativo. O aplicativo permite que os usuários façam login com o Google e armazena informações no PocketBase, que atua como o backend da aplicação.
+**Foco Criativo Mobile** is an application developed with React Native as part of a test for the company Foco Criativo. The app allows users to log in with Google and stores information in PocketBase, which acts as the backend for the application.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **React Native**: Framework utilizado para o desenvolvimento mobile.
-- **PocketBase**: Backend utilizado para autenticação e armazenamento dos dados.
+- **React Native**: Framework used for mobile development.
+- **PocketBase**: Backend used for authentication and data storage.
 
-## Pré-requisitos
+## Prerequisites
 
-Antes de executar o projeto, é necessário que o backend esteja configurado e rodando. Certifique-se de seguir os passos abaixo corretamente.
+Before running the project, make sure the backend is configured and running. Ensure that you follow the steps below correctly.
 
-### Link do Backend
+### Backend Link
 
-O backend da aplicação utiliza o PocketBase. Antes de executar o aplicativo, acesse o backend neste link:
+The application's backend uses PocketBase. Before running the app, access the backend at this link:
 
-[Backend do PocketBase](#) <!-- Insira o link real aqui -->
+[Backend PocketBase](#) <!-- Insert the actual link here -->
 
-> **Nota**: O backend precisa estar em execução antes de iniciar o aplicativo.
+> **Note**: The backend needs to be running before starting the app.
 
-## Configuração do Ambiente
+## Environment Setup
 
-Antes de rodar o aplicativo, é necessário configurar o arquivo `.env` com as variáveis de ambiente corretas.
+Before running the app, you need to configure the `.env` file with the correct environment variables.
 
-### Criação do Arquivo `.env`
+### Creating the `.env` File
 
-Crie um arquivo `.env` na raiz do projeto mobile e adicione as seguintes variáveis de ambiente:
+Create a `.env` file in the root of the mobile project and add the following environment variables:
 
 env
-POCKET_BASE_URL= http://127.0.0.1:8080
+POCKET_BASE_URL=http://127.0.0.1:8080
 
-GOOGLE_CLIENT_IOS = 942364776611-nvvrm0dqrocnj8n4am2ltbpt472ik16u.apps.googleusercontent.com
+GOOGLE_CLIENT_IOS=942364776611-nvvrm0dqrocnj8n4am2ltbpt472ik16u.apps.googleusercontent.com
 
-GOOGLE_CLIENT_ANDROID = 942364776611-t5jmpapflei7bgk0ghkt9psd0092dui6.apps.googleusercontent.com
+GOOGLE_CLIENT_ANDROID=942364776611-t5jmpapflei7bgk0ghkt9psd0092dui6.apps.googleusercontent.com
 
-GOOGLE_CLIENT_WEB = 942364776611-skusp7bsbfphdhjlh4e8hlrq3e7jl677.apps.googleusercontent.com
+GOOGLE_CLIENT_WEB=942364776611-skusp7bsbfphdhjlh4e8hlrq3e7jl677.apps.googleusercontent.com
 
-POCKET_BASE_USERNAME= jersysilvafernandes@gmail.com
+POCKET_BASE_USERNAME=jersysilvafernandes@gmail.com
 
-POCKET_BASE_PASSWORD= Ii13a2019!
+POCKET_BASE_PASSWORD=Ii13a2019!
 
-GOOGLE_BASE_URL= https://www.googleapis.com/userinfo/v2/me
+GOOGLE_BASE_URL=https://www.googleapis.com/userinfo/v2/me
 
-Certifique-se de substituir `your_google_client_id` e `your_pocketbase_url` pelos valores corretos das suas credenciais.
+Make sure to replace `your_google_client_id` and `your_pocketbase_url` with the correct values for your credentials.
 
-## Instalação e Execução
+## Installation and Execution
 
-### Passo 1: Instalar Dependências
+### Step 1: Install Dependencies
 
-Utilize o gerenciador de pacotes de sua preferência para instalar as dependências do projeto. Execute um dos comandos abaixo:
+Use your preferred package manager to install the project dependencies. Run one of the commands below:
 
 bash
-
-# Com Yarn
-
+# Using Yarn
 yarn install
 
-# Com NPM
-
+# Using NPM
 npm install
 
-### Passo 2: Inicializar o Backend
+### Step 2: Initialize the Backend
 
-Certifique-se de que o backend está rodando e acessível antes de iniciar o aplicativo.
+Ensure that the backend is running and accessible before starting the app.
 
-### Passo 3: Executar a Aplicação
+### Step 3: Run the Application
 
-Para rodar a aplicação mobile, utilize um dos comandos abaixo dependendo da plataforma desejada:
+To run the mobile application, use one of the commands below depending on the desired platform:
 
 #### iOS
 
 bash
-
-# Com Yarn
-
+# Using Yarn
 yarn ios
 
-# Com NPM
-
+# Using NPM
 npx react-native run-ios
 
 #### Android
@@ -94,11 +86,11 @@ yarn android
 
 npx react-native run-android
 
-> **Nota**: No caso de erros ao executar no iOS, certifique-se de que todas as dependências específicas para o iOS estão corretamente configuradas (como Xcode, CocoaPods, etc.).
+> **Note: In case of errors when running on iOS, make sure that all iOS-specific dependencies are correctly configured (such as Xcode, CocoaPods, etc.).
 
-## Screenshots da Aplicação
+## Screenshots da Aplicação.
 
-Adicione aqui screenshots mostrando a aplicação em execução para ajudar na visualização do sistema.
+ Visualize the system.
     <div>
     <img width="300" alt="Screenshot 2024-08-29 at 14 00 29" src="https://github.com/user-attachments/assets/6019140e-40d6-4e5a-94b2-4760c2df23b1">
     <img width="300" alt="Screenshot 2024-08-29 at 14 00 43" src="https://github.com/user-attachments/assets/26bdec3f-bfb6-4033-a1b4-b576f612da65">
