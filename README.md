@@ -15,7 +15,7 @@ The project is divided into three separate repositories:
 
 1. **[Creative Focus Web (Next.js)](https://github.com/seu-usuario/foco-criativo-web)**: Web application that allows Google login and integrates with PocketBase.
 
-2. **[Creative Focus Mobile (React Native)](https://github.com/seu-usuario/foco-criativo-mobile)**: Mobile application with Google login and PocketBase integration.
+2. **[Creative Focus Mobile (React Native)](https://github.com/JersyFernandesJF/desafio_foco_creativo/tree/main/foco_creativo_mobile)**: Mobile application with Google login and PocketBase integration.
 
 3. **[Creative Focus PocketBase (Backend)](https://github.com/JersyFernandesJF/desafio_foco_creativo/tree/main/foco_creativo_backend)**: Backend configured to manage user authentication and data.
 
