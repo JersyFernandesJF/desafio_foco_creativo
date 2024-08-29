@@ -31,11 +31,17 @@ Crie um arquivo `.env` na raiz do projeto mobile e adicione as seguintes variáv
 
 env
 POCKET_BASE_URL= http://127.0.0.1:8080
+
 GOOGLE_CLIENT_IOS = 942364776611-nvvrm0dqrocnj8n4am2ltbpt472ik16u.apps.googleusercontent.com
+
 GOOGLE_CLIENT_ANDROID = 942364776611-t5jmpapflei7bgk0ghkt9psd0092dui6.apps.googleusercontent.com
+
 GOOGLE_CLIENT_WEB = 942364776611-skusp7bsbfphdhjlh4e8hlrq3e7jl677.apps.googleusercontent.com
+
 POCKET_BASE_USERNAME= jersysilvafernandes@gmail.com
+
 POCKET_BASE_PASSWORD= Ii13a2019!
+
 GOOGLE_BASE_URL= https://www.googleapis.com/userinfo/v2/me
 
 Certifique-se de substituir `your_google_client_id` e `your_pocketbase_url` pelos valores corretos das suas credenciais.
@@ -93,9 +99,7 @@ npx react-native run-android
 ## Screenshots da Aplicação
 
 Adicione aqui screenshots mostrando a aplicação em execução para ajudar na visualização do sistema.
-
-- **Screenshot 1**:  
-  ![Screenshot 1](path_to_screenshot_1) <!-- Insira o caminho da imagem -->
-
-- **Screenshot 2**:  
-  ![Screenshot 2](path_to_screenshot_2) <!-- Insira o caminho da imagem -->
+    <div>
+    <img width="300" alt="Screenshot 2024-08-29 at 14 00 29" src="https://github.com/user-attachments/assets/6019140e-40d6-4e5a-94b2-4760c2df23b1">
+    <img width="300" alt="Screenshot 2024-08-29 at 14 00 43" src="https://github.com/user-attachments/assets/26bdec3f-bfb6-4033-a1b4-b576f612da65">
+  </div>
