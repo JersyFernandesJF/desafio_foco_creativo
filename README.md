@@ -55,7 +55,7 @@ Para rodar toda a aplicação, siga os passos indicados nos READMEs de cada repo
 
 ## Desenvolvedor
 
-Este projeto foi desenvolvido por *Gercilhão da Silva Fernandes*, um desenvolvedor dedicado a criar soluções inovadoras e práticas para empresas.
+Este projeto foi desenvolvido por *Jersy Leandr da Silva Fernandes*, um desenvolvedor dedicado a criar soluções inovadoras e práticas para empresas.
 
 - *LinkedIn*: [Perfil LinkedIn](https://www.linkedin.com/in/gercilhao) <!-- Adicione seu link do LinkedIn -->
-- *Email*: gercilhao@example.com <!-- Adicione seu e-mail real -->
+- *Email*: jersysilvafernandes@gmail.com <!-- Adicione seu e-mail real -->
