@@ -26,18 +26,30 @@ Adicione aqui screenshots que mostrem as funcionalidades principais tanto da apl
 ### Web
 
 - *Página de Login*  
-  ![Página de Login]((https://github.com/user-attachments/assets/68108872-3aec-4721-8478-c7abbe7c7e33)) <!-- Substitua pelo caminho da imagem -->
+  ![Página de Login](path_to_web_screenshot_1)
+  <div>
+     <img width="2560" alt="Screenshot 2024-08-29 at 13 59 10" src="https://github.com/user-attachments/assets/68108872-3aec-4721-8478-c7abbe7c7e33">
+  </div>
 
 - *Dashboard do Usuário*  
-  ![Dashboard do Usuário](path_to_web_screenshot_2) <!-- Substitua pelo caminho da imagem -->
+  ![Dashboard do Usuário](path_to_web_screenshot_2)
+  <div>
+     <img width="2560" alt="Screenshot 2024-08-29 at 13 59 31" src="https://github.com/user-attachments/assets/a327028e-1ab5-4bc1-bcd6-2fba0d07f5f3">
+  </div>
 
 ### Mobile
 
 - *Tela de Login*  
-  ![Tela de Login](path_to_mobile_screenshot_1) <!-- Substitua pelo caminho da imagem -->
+  ![Tela de Login](path_to_mobile_screenshot_1)
+    <div>
+    <img width="543" alt="Screenshot 2024-08-29 at 14 00 29" src="https://github.com/user-attachments/assets/6019140e-40d6-4e5a-94b2-4760c2df23b1">
+  </div>
 
 - *Tela Principal do Usuário*  
-  ![Tela Principal do Usuário](path_to_mobile_screenshot_2) <!-- Substitua pelo caminho da imagem -->
+  ![Tela Principal do Usuário](path_to_mobile_screenshot_2)
+    <div>
+     <img width="543" alt="Screenshot 2024-08-29 at 14 00 43" src="https://github.com/user-attachments/assets/26bdec3f-bfb6-4033-a1b4-b576f612da65">
+  </div>
 
 ## Como Rodar o Projeto
 
