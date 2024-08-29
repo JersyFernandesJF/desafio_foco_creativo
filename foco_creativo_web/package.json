@@ -1,0 +1,40 @@
+{
+  "name": "foco_creativo_web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth/core": "^0.34.2",
+    "@tanstack/react-query": "^5.52.2",
+    "@types/next-auth": "^3.15.0",
+    "axios": "^1.7.5",
+    "clsx": "^2.1.1",
+    "cookies-next": "^4.2.1",
+    "firebase": "^10.13.0",
+    "next": "14.2.6",
+    "next-auth": "^5.0.0-beta.20",
+    "pocketbase": "^0.21.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "sonner": "^1.5.0",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.6",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  },
+  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
+}
