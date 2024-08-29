@@ -37,7 +37,7 @@ Adicione aqui screenshots que mostrem as funcionalidades principais tanto da apl
 
 ### Mobile
 
-- *Tela de Login*  
+- *Telas Aplicação Mobile*  
     <div style=>
     <img width="300" alt="Screenshot 2024-08-29 at 14 00 29" src="https://github.com/user-attachments/assets/6019140e-40d6-4e5a-94b2-4760c2df23b1">
             <img width="300" alt="Screenshot 2024-08-29 at 14 00 43" src="https://github.com/user-attachments/assets/26bdec3f-bfb6-4033-a1b4-b576f612da65">
